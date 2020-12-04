@@ -1,6 +1,7 @@
 # Spotify Home Page
 
 <img src="img/printspotify.png" alt="Imagem  do projeto">
+<img src="img/spotifyresponsive.png" alt="Imagem  do projeto">
 
 > Projeto com intuito de testar conhecimentos adiquiridos no bootstrap como grid, formatações de objetos  e responsividade. Projeto foi criado com Html, Css e Bootstrap.
 
