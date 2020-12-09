@@ -72,23 +72,53 @@
     </header> 
     <!-- Fim/ Barra de Navegação -->
 
+
     <!-- Inicio Capa -->
     <section id="home" class="d-flex" >
       <div class="container align-self-center">
         <div class="row">
           <div class="col-md-12 capa">
-            <h1>Música para todos</h1>
-            <a href="#" class="btn btn-custom btn-roxo mr-3">
-              Aproveite o Spotify Free
-            </a>
-            <a href="#" class="btn btn-custom btn-branco">
-              Aproveite o Spotify Premium
-            </a>
+
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel"> <!--Carousel-->
+              <div class="carousel-inner"> <!--Inner-->
+
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+                  <a href="#" class="btn btn-custom btn-roxo mr-3">
+                    Aproveite o Spotify Free
+                  </a>
+                  <a href="#" class="btn btn-custom btn-branco">
+                    Aproveite o Spotify Premium
+                   </a>
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As melhores rádios</h1>
+                  <a href="#" class="btn btn-custom btn-branco">
+                    <i class="fas fa-music"></i>  Ouça agora
+                   </a>
+                </div>
+
+              </div> <!--/Inner-->
+
+              <!-- Controles -->
+
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>
+
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+
+            </div> <!--/Carousel-->
+
           </div>
         </div>
       </div>
     </section>
     <!-- Fim/ Capa -->
+
 
     <!-- Inicio Serviços -->
     <section id="servicos">
